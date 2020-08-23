@@ -71,6 +71,11 @@ section {
 
 aside {
     flex: 1;
+    margin: 20px;
+}
+
+aside .btn:first-child {
+    margin-right: 20px;
 }
 
 footer {
@@ -130,8 +135,14 @@ footer {
 
     main {
         height: auto;
-        flex-flow: row wrap;
+        flex-flow: column wrap;
         padding: 0 10px;
+    }
+
+    section {
+        display: flex;
+        flex-flow: column wrap;
+        width: 100%;
     }
 
     .box {
@@ -149,6 +160,6 @@ footer {
         justify-content: center;
     }
     .btn{
-        width: 50px;
+        width: 100px;
     }
 }
