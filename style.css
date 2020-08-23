@@ -55,12 +55,12 @@ main {
 section {
     display: flex;
     flex-flow: row wrap;
-    width: calc((100vh - 100px));
+    width: calc((100% - 200px));
 }
 
 .box {
-    width: calc((100vh - 100px) / 3);
-    height: calc((100vh - 100px) / 3);
+    width: calc(100% / 3);
+    height: calc(100% / 3);
     color: #FFF;
 
     display: flex;
@@ -72,10 +72,6 @@ section {
 aside {
     flex: 1;
     margin: 20px;
-}
-
-aside .btn:first-child {
-    margin-right: 20px;
 }
 
 footer {
@@ -90,8 +86,8 @@ footer {
     border-bottom: 4px solid #2B8EAD;
     border-radius: 5px;
     padding: 15px 10px;
-    margin: 8px 4px;
-    width: 150px;
+    margin-bottom:15px;
+    width: 100%;
 
 }
 
@@ -161,5 +157,8 @@ footer {
     }
     .btn{
         width: 100px;
+    }
+    .btn:first-child {
+        margin-right: 10px;
     }
 }
