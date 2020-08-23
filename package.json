@@ -1,0 +1,10 @@
+{
+  "name": "sort-shuffle",
+  "version": "1.0.0",
+  "description": "Sort and shuffle numbers from 1 to 9 using simple html, css and javascript",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "shriramcs@gmail.com"
+}
